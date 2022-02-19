@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #F8FAFC;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 60px);
+  grid-template-rows: repeat(9, 70px);
+  grid-gap: 2px;
+}
+
+.element {
+  background: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-row {
+  grid-column-start: 2;
+  grid-column-end: 18;
+  background: #F8FAFC;
+}
+
+.second-row {
+  grid-column-start: 3;
+  grid-column-end: 13;
+  background: #F8FAFC;
+}
+
+.reactive-nonmetal {
+  background: #9DC87D;
+}
+
+.metalloid {
+  background: #FCCF0C;
+}
+
+.alkali-metal {
+  background: #D1202D;
+  color: #FFF;
+}
+
+.alkaline-earth-metal {
+  background: #F7A81E;
+  color: #FFF;
+} 
+
+.noble-gas {
+  background: #F7B2CA;
+}
+
+.unknown-chemical-properties {
+  background: #C4C4C4;
+}
+
+.post-transition-metals {
+  background: #B896C6;
+}
+
+.transition-metals {
+  background: #9ABFE5;
+}
